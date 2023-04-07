@@ -1,0 +1,40 @@
+{
+  "name": "valtio-devtools",
+  "version": "1.0.7",
+  "license": "MIT",
+  "scripts": {
+    "start": "neu run",
+    "start-dev": "concurrently -k 'npm run dev:vite' 'node -e \"setTimeout(()=>{}, 3000)\" && neu run --frontend-lib-dev -- --window-enable-inspector'",
+    "dev:neu": "neu run -- --window-enable-inspector",
+    "dev:vite": "cd valtio-devtools && npm run dev",
+    "build": "npm run build:vite && npm run build:neu",
+    "build:neu": "rm -rf dist && neu build",
+    "build:vite": "cd valtio-devtools && npm run build",
+    "install": "cd valtio-devtools && npm i && cd ../extensions && npm i && cd ../ && npm run build",
+    "postinstall": "neu update"
+  },
+  "bin": {
+    "valtio-devtools": "bin.js"
+  },
+  "dependencies": {
+    "@neutralinojs/neu": "^9.5.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  },
+  "description": "Simple state viewer for valtio web/expo apps.",
+  "main": "bin.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/cyrusbowman/valtio-devtools.git"
+  },
+  "keywords": [
+    "valtio",
+    "devtools"
+  ],
+  "author": "Cyrus Bowman",
+  "bugs": {
+    "url": "https://gitlab.com/cyrusbowman/valtio-devtools/issues"
+  },
+  "homepage": "https://gitlab.com/cyrusbowman/valtio-devtools#readme"
+}

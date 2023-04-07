@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <style bx:fonts="Aldrich">@import url(https://fonts.googleapis.com/css2?family=Aldrich%3Aital%2Cwght%400%2C400&amp;display=swap);</style>
+  </defs>
+  <path style="" d="M 150 50 H 420 A 30 30 0 0 1 450 80 V 350 A 100 100 0 0 1 350 450 H 80 A 30 30 0 0 1 50 420 V 150 A 100 100 0 0 1 150 50 Z" bx:shape="rect 50 50 400 400 100 30 100 30 1@f56fcaef"/>
+  <text style="fill: rgb(255, 255, 255); font-family: Aldrich; font-size: 213.6px; font-weight: 700; white-space: pre;" transform="matrix(1.471109, 0, 0, 1, -98.410912, 33.031471)" x="161.008" y="293.426">V</text>
+</svg>
