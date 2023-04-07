@@ -1,6 +1,6 @@
 {
   "name": "valtio-devtools",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "license": "MIT",
   "scripts": {
     "start": "neu run",
@@ -26,7 +26,7 @@
   "main": "bin.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/cyrusbowman/valtio-devtools.git"
+    "url": "git+ssh://git@github.com:cyrusbowman/valtio-devtools.git"
   },
   "keywords": [
     "valtio",
@@ -34,7 +34,7 @@
   ],
   "author": "Cyrus Bowman",
   "bugs": {
-    "url": "https://gitlab.com/cyrusbowman/valtio-devtools/issues"
+    "url": "https://github.com/cyrusbowman/valtio-devtools/issues"
   },
-  "homepage": "https://gitlab.com/cyrusbowman/valtio-devtools#readme"
+  "homepage": "https://github.com/cyrusbowman/valtio-devtools#readme"
 }
